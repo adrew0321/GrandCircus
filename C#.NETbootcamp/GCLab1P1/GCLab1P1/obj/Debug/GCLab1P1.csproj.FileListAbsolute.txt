@@ -1,0 +1,7 @@
+C:\GitHub\Coding Projects\adrew0321.github.io\GrandCircus\C#.NETbootcamp\GCLab1P1\GCLab1P1\bin\Debug\GCLab1P1.exe.config
+C:\GitHub\Coding Projects\adrew0321.github.io\GrandCircus\C#.NETbootcamp\GCLab1P1\GCLab1P1\bin\Debug\GCLab1P1.exe
+C:\GitHub\Coding Projects\adrew0321.github.io\GrandCircus\C#.NETbootcamp\GCLab1P1\GCLab1P1\bin\Debug\GCLab1P1.pdb
+C:\GitHub\Coding Projects\adrew0321.github.io\GrandCircus\C#.NETbootcamp\GCLab1P1\GCLab1P1\obj\Debug\GCLab1P1.csprojAssemblyReference.cache
+C:\GitHub\Coding Projects\adrew0321.github.io\GrandCircus\C#.NETbootcamp\GCLab1P1\GCLab1P1\obj\Debug\GCLab1P1.csproj.CoreCompileInputs.cache
+C:\GitHub\Coding Projects\adrew0321.github.io\GrandCircus\C#.NETbootcamp\GCLab1P1\GCLab1P1\obj\Debug\GCLab1P1.exe
+C:\GitHub\Coding Projects\adrew0321.github.io\GrandCircus\C#.NETbootcamp\GCLab1P1\GCLab1P1\obj\Debug\GCLab1P1.pdb
