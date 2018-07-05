@@ -15,20 +15,65 @@ namespace GCLab1P2
             while (repeat1)
             {
 
+                DateTime userInput1 = new DateTime();
+                DateTime userInput2 = new DateTime();
+
+
                 //UserDate1
-                Console.WriteLine("Please insert your first date. Press the ENTER key to continue. (Example: xx/xx/xxxx)");
-                DateTime userInput1 = DateTime.Parse(Console.ReadLine());
+                bool repeat3 = true;
+                while (repeat3)
+                {
+                    Console.WriteLine("Please insert your first date. Press the ENTER key to continue. (Example: xx/xx/xxxx)");
+                    string input1 = Console.ReadLine();
+
+                    //Exceptions
+                    try
+                    {
+                        userInput1 = DateTime.Parse(input1);
+                        repeat3 = false;
+                    }
+                    catch (FormatException)
+                    {
+                        Console.WriteLine("Error: Please use numerical digits when entering your date.");
+
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine("Critical Error:" + e.Message);
+                    }
+                }
 
                 Console.WriteLine("Your first date is: " + userInput1.ToLongDateString());
                 Console.ReadLine();
 
 
                 //UserDate2
-                Console.WriteLine("Please insert your second date. Press the ENTER key to continue. (Ex: xx/xx/xxxx)");
-                DateTime userInput2 = DateTime.Parse(Console.ReadLine());
+                bool repeat4 = true;
+                while (repeat4)
+                {
+                    Console.WriteLine("Please insert your second date. Press the ENTER key to continue. (Ex: xx/xx/xxxx)");
+                    string input2 = Console.ReadLine();
+
+                    //Exceptions
+                    try
+                    {
+                        userInput2 = DateTime.Parse(input2);
+                        repeat4 = false;
+                    }
+                    catch (FormatException)
+                    {
+                        Console.WriteLine("Error: Please use numerical digits when entering your date.");
+
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine("Critical Error:" + e.Message);
+                    }
+                }
 
                 Console.WriteLine("Your second date is: " + userInput2.ToLongDateString());
                 Console.ReadLine();
+
 
                 //Compares both UserInputs and displays the difference in time in Days, Hours, Minutes
                 if (userInput2 > userInput1)
@@ -44,6 +89,7 @@ namespace GCLab1P2
                     Console.ReadLine();
                 }
 
+                //Checks to see if User wants to run program again
                 bool repeatError = true;
                 while (repeatError)
                 {
